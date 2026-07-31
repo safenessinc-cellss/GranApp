@@ -1,0 +1,22 @@
+{
+  "short_name": "GranApp",
+  "name": "GranApp - PWA para Conductores y Motoristas",
+  "icons": [
+    {
+      "src": "https://img.icons8.com/emoji/192/000000/lightning-bolt.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://img.icons8.com/emoji/512/000000/lightning-bolt.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0B0F19",
+  "theme_color": "#7C3AED",
+  "display": "standalone",
+  "orientation": "portrait",
+  "description": "Calculadora de GranScore, Meta Tracker e Cámara Secreta para Uber, 99, DiDi, Lyft, Cabify e Bolt."
+}
