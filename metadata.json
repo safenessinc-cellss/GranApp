@@ -1,0 +1,6 @@
+{
+  "name": "GranApp",
+  "description": "PWA para conductores de Uber, Lyft, DiDi, Bolt, Cabify y 99 con GranScore, Meta Tracker, Cámara Secreta, Panel Admin y adaptación automática por país.",
+  "requestFramePermissions": ["geolocation", "notifications"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,57 @@
+{
+  "entities": {
+    "rides": {
+      "title": "Ride",
+      "description": "Calculated ride logs saved by drivers",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "platform": { "type": "string" },
+        "fareValue": { "type": "number" },
+        "totalKm": { "type": "number" },
+        "durationMin": { "type": "number" },
+        "netProfit": { "type": "number" },
+        "score": { "type": "number" },
+        "color": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["userId", "fareValue", "netProfit", "score"]
+    },
+    "users": {
+      "title": "UserProfile",
+      "description": "Driver profile and gamification stats",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "avatar": { "type": "string" },
+        "mainPlatform": { "type": "string" },
+        "city": { "type": "string" },
+        "level": { "type": "number" },
+        "xp": { "type": "number" },
+        "unlockedBadges": { "type": "array", "items": { "type": "string" } },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["uid"]
+    },
+    "leads": {
+      "title": "Lead",
+      "description": "Driver registration leads from modal",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "phone": { "type": "string" },
+        "country": { "type": "string" },
+        "city": { "type": "string" },
+        "platform": { "type": "string" },
+        "plan": { "type": "string" },
+        "status": { "type": "string" },
+        "date": { "type": "string" }
+      },
+      "required": ["email", "name"]
+    }
+  }
+}
